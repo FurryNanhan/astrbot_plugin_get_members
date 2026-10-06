@@ -1,0 +1,10 @@
+name: astrbot_plugin_get_members
+display_name: 群成员获取
+desc: 管理员通过 /get_members 指令一键获取当前群所有成员的昵称与 QQ 号，支持数据导出与统计。
+short_desc: 一键导出群成员名单，具备并发限流与长文本智能分段功能。
+version: 1.0.0
+author: FURRY南寒
+repo: https://github.com/FurryNanhan/astrbot_plugin_get_members
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.0.0"
